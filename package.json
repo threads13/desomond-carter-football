@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "winningprefloppoker",
   "version": "1.0.0",
   "description": "Online video course.",
@@ -15,6 +16,34 @@
     "build": "next build",
     "start": "next start"
   },
+=======
+  "name": "desmond-carter-football",
+  "version": "1.0.0",
+  "description": "Football website for Desmond Carter.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.7.0",
+    "eslint-plugin-react": "^7.11.1",
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/threads13"
+  },
+  "keywords": [
+    "Football",
+    "fantasy",
+    "sports",
+    "Desmond",
+    "Carter"
+  ],
+>>>>>>> ea4c6120fa1e667986d4faf08d288b6100aed52c
   "author": "Jacob Hoke",
   "license": "ISC"
 }
