@@ -8,7 +8,7 @@ import RecentTips from './recentTips';
 import AnalyzeResults from './analyzeResults';
 import Instructor from './instructor';
 import Testimonials from './testimonials';
-import QuestionsAnswered from './questionsAnswered';
+import Posts from './posts';
 
 const Layout = (props) => (
   <div className="layout">
@@ -20,6 +20,7 @@ const Layout = (props) => (
     <Banner />
     <TopColumns />
     <RecentTips />
+    <Posts />
   <style jsx>{`
     * {
       box-sizing: border-box;
