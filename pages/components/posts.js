@@ -16,12 +16,13 @@ class Posts extends React.Component {
   }
 
   render(){
+    const { posts } = this.state;
     return(
       <div className="questionsAnswered">
         <h3>Posts</h3>
-        {(this.state.posts && this.state.posts.length > 0) ?
+        {(posts && posts.length > 0) ?
         <ul>
-          {this.state.posts.map(post => <li>{post.title}</li>)}
+          {posts.map(post => <li>{post.title}</li>)}
         </ul> :  <p>No entries</p>}
         <style jsx>{`
           .questionsAnswered {
